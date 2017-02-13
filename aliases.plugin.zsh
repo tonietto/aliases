@@ -4,3 +4,4 @@ alias please='sudo'
 alias suspend='xset dpms force off' # Ubuntu specific
 alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
+alias showip="ipconfig getifaddr en0"
