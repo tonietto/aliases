@@ -1,4 +1,5 @@
 # aliases
+alias futureagenda='ssh root@198.199.92.54'
 alias futuremachina-mki='ssh gus@159.203.225.215'
 alias futuremachina='ssh root@45.55.113.171'
 alias please='sudo'
