@@ -7,3 +7,4 @@ alias suspend='xset dpms force off' # Ubuntu specific
 alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
 alias showip="ipconfig getifaddr en0"
+alias bye="clear && figlet BYE! | lolcat && revolver -s arrow2 start && echo "\n" && sleep 5 && exit"
