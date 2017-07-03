@@ -1,16 +1,14 @@
-# aliases
+# this should not be here
 alias futureagenda='ssh root@198.199.92.54'
 alias futuremachina-mki='ssh gus@159.203.225.215'
 alias futuremachina='ssh root@45.55.113.171'
 
+# terminal
+alias c='clear'
+
 # suspend and exit
 alias suspend='xset dpms force off' # Ubuntu specific
 alias bye="clear && figlet BYE! | lolcat && revolver -s arrow2 start && sleep 5 && exit"
-
-# "bobiçada"
-alias alohaine="fortune | cowsay | lolcat"
-alias aloha="clear && figlet ALOHA! | lolcat"
-alias showip="ipconfig getifaddr en0"
 
 # aliases for Tmux
 alias tmux='tmux -2'
@@ -24,3 +22,8 @@ alias eh='vim ~/.hyper.js'
 alias ev='vim ~/.vimrc'
 alias et='vim ~/.tmux.conf'
 alias ez='vim ~/.zshrc'
+
+# ramdom
+alias alohaine="fortune | cowsay | lolcat"
+alias aloha="clear && figlet ALOHA! | lolcat"
+alias showip="ipconfig getifaddr en0"
