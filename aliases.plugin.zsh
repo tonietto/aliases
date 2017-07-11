@@ -1,8 +1,3 @@
-# this should not be here
-alias futureagenda='ssh root@198.199.92.54'
-alias futuremachina-mki='ssh gus@159.203.225.215'
-alias futuremachina='ssh root@45.55.113.171'
-
 # terminal
 alias c='clear'
 
@@ -23,7 +18,7 @@ alias ev='vim ~/.vimrc'
 alias et='vim ~/.tmux.conf'
 alias ez='vim ~/.zshrc'
 
-# ramdom
+# fun
 alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
 alias showip="ipconfig getifaddr en0"
