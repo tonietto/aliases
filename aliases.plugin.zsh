@@ -11,6 +11,7 @@ alias ta='tmux attach -t'
 alias tnew='tmux new -s'
 alias tls='tmux ls'
 alias tkill='tmux kill-session -t'
+alias tlay='tmux-layout'
 
 # convenience aliases for editing configs
 alias eh='vim ~/.hyper.js'
