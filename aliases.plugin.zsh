@@ -20,6 +20,7 @@ alias ev='vim ~/.vimrc'
 alias et='vim ~/.tmux.conf'
 alias ez='vim ~/.zshrc'
 alias ex='vim ~/.Xresources'
+alias ei='vim ~/.i3/config'
 
 # fun
 alias alohaine="fortune | cowsay | lolcat"
