@@ -24,6 +24,7 @@ alias ei='vim ~/.i3/config'
 alias eib='vim ~/.i3/i3blocks.conf'
 
 # fun
+alias neo='clear && neofetch --config ~/.config/neofetch/config'
 alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
 alias showip="ipconfig getifaddr en0"
