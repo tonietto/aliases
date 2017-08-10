@@ -1,3 +1,6 @@
+# vim
+alias vi='vim'
+
 # terminal
 alias c='clear'
 alias cb='xclip -selection clipboard'
