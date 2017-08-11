@@ -1,5 +1,6 @@
-# vim
+# shortcuts
 alias vi='vim'
+alias ra='ranger'
 
 # terminal
 alias c='clear'
