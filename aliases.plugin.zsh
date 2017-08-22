@@ -19,13 +19,9 @@ alias tkill='tmux kill-session -t'
 alias tlay='tmux-layout'
 
 # convenience aliases for editing configs
-alias eh='vim ~/.hyper.js'
 alias ev='vim ~/.vimrc'
-alias et='vim ~/.tmux.conf'
 alias ez='vim ~/.zshrc'
-alias ex='vim ~/.Xresources'
 alias ei='vim ~/.i3/config'
-alias eib='vim ~/.i3/i3blocks.conf'
 
 # fun
 alias neo='clear && neofetch --config ~/.config/neofetch/config'
