@@ -4,6 +4,7 @@ alias ra='ranger'
 
 # terminal
 alias c='clear'
+alias cs='clear && show-version'
 alias cb='xclip -selection clipboard'
 
 # suspend and exit
