@@ -5,6 +5,7 @@ alias ra='ranger'
 # terminal
 alias c='clear'
 alias cs='clear && show-version'
+alias cspad='cd ~ && clear && figlet NOTES'
 alias cb='xclip -selection clipboard'
 
 # suspend and exit
