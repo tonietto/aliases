@@ -1,6 +1,7 @@
 # shortcuts
 alias vi='vim'
 alias ra='ranger'
+alias wapp='chromium --app=https://web.whatsapp.com'
 
 # terminal
 alias c='clear'
