@@ -2,6 +2,7 @@
 alias vi='vim'
 alias ra='ranger'
 alias wapp='chromium --app=https://web.whatsapp.com'
+alias mux='tmuxinator'
 
 # terminal
 alias c='clear'
