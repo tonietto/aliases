@@ -9,6 +9,7 @@ alias c='clear'
 alias cs='clear && show-version'
 alias cn='cd ~ && clear && figlet NOTES'
 alias cb='xclip -selection clipboard'
+alias ds='du -h ./ | sort -rh | head -n 1' # show this directory size
 
 # suspend and exit
 alias suspend='xset dpms force off' # Ubuntu specific
