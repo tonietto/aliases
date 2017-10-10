@@ -11,7 +11,6 @@ alias cn='cd ~ && clear && figlet NOTES'
 alias cb='xclip -selection clipboard'
 alias ds='du -h ./ | sort -rh | head -n 1' # show this directory size
 alias vat='vimcat'
-alias :q='exit' # ;)
 
 # suspend and exit
 alias suspend='xset dpms force off' # Ubuntu specific
