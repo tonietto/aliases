@@ -32,7 +32,7 @@ alias ei='vim ~/.i3/config'
 alias mon-office='~/.monitor/office_outputs.sh'
 
 # fun
-alias neo='clear && neofetch --config ~/.config/neofetch/config'
+alias neo='clear && neofetch --config ~/.config/neofetch/config.conf'
 alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
 alias showip="ipconfig getifaddr en0"
