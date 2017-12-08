@@ -7,6 +7,7 @@ alias mux='tmuxinator'
 # terminal
 alias c='clear'
 alias cs='clear && show-version'
+alias ct='clear && figlet TASKS | lolcat && task next'
 alias cb='xclip -selection clipboard'
 alias ds='du -h ./ | sort -rh | head -n 1' # show this directory size
 alias vat='vimcat'
