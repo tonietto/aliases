@@ -1,13 +1,16 @@
 # shortcuts
-alias vi='vim'
 alias ra='ranger'
 alias R='R --quiet'
+alias showip="ipconfig getifaddr en0"
 alias ts='tasks'
-alias pu='pass unlock'
+alias vi='vim'
+alias vat='vimcat'
+
+# more shortcuts
+alias ddg='surfraw duckduckgo'
 alias pue='pass unlock && exit'
 alias pul='pass unlock && encfs -i 60 ~/.ledger ~/ledger'
-alias ddg='surfraw duckduckgo'
-alias showip="ipconfig getifaddr en0"
+alias pu='pass unlock'
 
 # docker aliases
 alias dcup="docker-compose up"
@@ -15,15 +18,14 @@ alias dcupd="docker-compose up -d"
 alias dclf="docker-compose logs -f"
 function dsup() { docker-compose stop $* && docker-compose up -d $* && docker-compose logs -f --tail 300 $* }
 
-# terminal
+# navigation
+alias cb='xclip -selection clipboard'
 alias c='clear'
+alias cl='cd ~/.calcurse && c && figlet CALENDAR | lolcat && echo ----------------- && echo Today is $(date +%m/%d/%y) && echo ----------------- && echo "" && calcurse -r3 && notify-send "Appointments for today" "$(calcurse -r1)"'
 alias cs='clear && show-version'
 alias ct='clear && figlet TASKS | lolcat && task next'
-alias cl='cd ~/.calcurse && c && figlet CALENDAR | lolcat && echo ----------------- && echo Today is $(date +%m/%d/%y) && echo ----------------- && echo "" && calcurse -r3 && notify-send "Appointments for today" "$(calcurse -r1)"'
-alias tasks='clear && figlet TASKS | lolcat && task next'
-alias cb='xclip -selection clipboard'
 alias ds='du -h ./ | sort -rh | head -n 1' # show this directory size
-alias vat='vimcat'
+alias tasks='clear && figlet TASKS | lolcat && task next'
 
 # suspend and exit
 alias suspend='xset dpms force off' # Ubuntu specific
