@@ -12,8 +12,8 @@ alias pul='pass unlock && encfs -i 60 ~/.ledger ~/ledger'
 alias pu='pass unlock'
 
 # docker aliases
-alias dcup="docker-compose up"
-alias dcupd="docker-compose up -d"
+alias dcu="docker-compose up"
+alias dcud="docker-compose up -d"
 alias dclf="docker-compose logs -f"
 function dsup() { docker-compose stop $* && docker-compose up -d $* && docker-compose logs -f --tail 300 $* }
 
