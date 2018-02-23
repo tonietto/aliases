@@ -3,7 +3,6 @@ alias ra='ranger'
 alias R='R --quiet'
 alias showip="ipconfig getifaddr en0"
 alias ts='tasks'
-alias vi='vim'
 alias vat='vimcat'
 
 # more shortcuts
