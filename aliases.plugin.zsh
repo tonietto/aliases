@@ -54,3 +54,6 @@ nls() { ls -c ~/notes/ | grep "$*" }
 alias neo='clear && neofetch --config ~/.config/neofetch/config.conf'
 alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
+
+# dotfiles
+gdots() {git C ~/ledger "$*" && git C ~/dotfiles "$*" && git C ~/.tmuxinator "$*" && pass git "$*" && git -C ~/.calcurse "$*"}
