@@ -56,4 +56,4 @@ alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
 
 # dotfiles
-gdots() {git C ~/ledger "$*" && git C ~/dotfiles "$*" && git C ~/.tmuxinator "$*" && pass git "$*" && git -C ~/.calcurse "$*"}
+gdots() {git -C ~/ledger "$*" && git -C ~/dotfiles "$*" && git -C ~/.tmuxinator "$*" && pass git "$*" && git -C ~/.calcurse "$*"}
