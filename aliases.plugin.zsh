@@ -23,7 +23,7 @@ alias dcomp="docker-compose"
 alias dcu="docker-compose up"
 alias dcud="docker-compose up -d"
 alias dclf="docker-compose logs -f"
-function dsud() { docker-compose stop $* && docker-compose up -d $* && docker-compose logs -f --tail 300 $* }
+function dsul() { docker-compose stop $* && docker-compose up -d $* && docker-compose logs -f --tail 300 $* }
 #}}}
 # Fun {{{
 alias neo='clear && neofetch --config ~/.config/neofetch/config.conf'
