@@ -15,6 +15,8 @@ gdots() {
   pass git "$*" && \
   echo "$*"ing tmuxinator.. && \
   git -C ~/.tmuxinator "$*" && \
+  echo "$*"ing qutebrowser.. && \
+  git -C ~/qutebrowser "$*" && \
   echo Done!
 }
 #}}}
