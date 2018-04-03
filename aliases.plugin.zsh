@@ -35,12 +35,6 @@ alias aloha="clear && figlet ALOHA! | lolcat"
 # Monitor configs {{{
 alias mon-office='~/.monitor/office_outputs.sh'
 #}}}
-# More shortcuts {{{
-alias ddg='surfraw duckduckgo'
-alias pue='pass unlock && exit'
-alias pul='pass unlock && encfs -i 60 ~/.ledger ~/ledger'
-alias pu='pass unlock'
-#}}}
 # Navigation {{{
 alias cb='xclip -selection clipboard'
 alias c='clear'
@@ -49,6 +43,7 @@ alias cs='clear && show-version'
 alias ct='clear && figlet TASKS | lolcat && task next'
 alias ds='du -h ./ | sort -rh | head -n 1' # show this directory size
 alias tasks='clear && figlet TASKS | lolcat && task next'
+alias v='f -e vim' # quick opening files with vim and fasd
 #}}}
 # Notes {{{
 n() { $EDITOR ~/notes/"$*" }
@@ -60,6 +55,10 @@ alias R='R --quiet'
 alias showip="ipconfig getifaddr en0"
 alias ts='tasks'
 alias vat='vimcat'
+alias ddg='surfraw duckduckgo'
+alias pue='pass unlock && exit'
+alias pul='pass unlock && encfs -i 60 ~/.ledger ~/ledger'
+alias pu='pass unlock'
 #}}}
 # Suspend and exit {{{
 alias suspend='xset dpms force off' # Ubuntu specific
