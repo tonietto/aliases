@@ -50,6 +50,7 @@ n() { $EDITOR ~/notes/"$*" }
 nls() { ls -c ~/notes/ | grep "$*" }
 ntree() { tree --noreport ~/notes/ }
 nsearch() { tree -P "*$**" ~/notes/ }
+nra() { ranger ~/notes/ }
 #}}}
 # Shortcuts {{{
 alias ra='ranger'
