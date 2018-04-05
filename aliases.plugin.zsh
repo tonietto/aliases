@@ -48,7 +48,7 @@ alias v='f -e vim' # quick opening files with vim and fasd
 # Notes {{{
 n() { $EDITOR ~/notes/"$*" }
 nls() { ls -c ~/notes/ | grep "$*" }
-ntree() { tree ~/notes/ }
+ntree() { tree --noreport ~/notes/ }
 nsearch() { tree -P "*$**" ~/notes/ }
 #}}}
 # Shortcuts {{{
