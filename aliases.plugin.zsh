@@ -58,7 +58,7 @@ alias R='R --quiet'
 alias showip="ipconfig getifaddr en0"
 alias ts='tasks'
 alias vat='vimcat'
-alias ddg() { surfraw duckduckgo "$*" }
+# alias ddg() { surfraw duckduckgo "$*" }
 alias pue='pass unlock && exit'
 alias pul='pass unlock && encfs -i 60 ~/.ledger ~/ledger'
 alias pu='pass unlock'
