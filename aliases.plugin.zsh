@@ -34,9 +34,6 @@ alias neo='clear && neofetch --config ~/.config/neofetch/config.conf'
 alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
 #}}}
-# Monitor configs {{{
-alias mon-office='~/.monitor/office_outputs.sh'
-#}}}
 # Navigation {{{
 alias cb='xclip -selection clipboard'
 alias c='clear'
