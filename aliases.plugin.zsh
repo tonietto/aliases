@@ -5,17 +5,19 @@ alias ei='vim ~/.i3/config'
 #}}}
 # Dotfiles {{{
 gdots() {
-  echo "$*"ing calcurse.. && \
+  echo "🖳  $*"ing calcurse.. && \
   git -C ~/.calcurse "$*" && \
-  echo "$*"ing dotfiles.. && \
+  echo "🖳  $*"ing dotfiles.. && \
   git -C ~/dotfiles "$*" && \
-  echo "$*"ing ledger.. && \
+  echo "🖳  $*"ing ledger.. && \
   git -C ~/ledger "$*" && \
-  echo "$*"ing pass.. && \
+  echo "🖳  $*"ing newsboat.. && \
+  git -C ~/newsboat "$*" && \
+  echo "🖳  $*"ing pass.. && \
   pass git "$*" && \
-  echo "$*"ing tmuxinator.. && \
+  echo "🖳  $*"ing tmuxinator.. && \
   git -C ~/.tmuxinator "$*" && \
-  echo "$*"ing qutebrowser.. && \
+  echo "🖳  $*"ing qutebrowser.. && \
   git -C ~/qutebrowser "$*" && \
   echo Done!
 }
