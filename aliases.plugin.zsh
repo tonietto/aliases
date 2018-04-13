@@ -7,17 +7,17 @@ alias ei='vim ~/.i3/config'
 gdots() {
   echo "🖳  $*"ing calcurse.. && \
   git -C ~/.calcurse "$*" && \
-  echo "🖳  $*"ing dotfiles.. && \
+  echo "\n🖳  $*"ing dotfiles.. && \
   git -C ~/dotfiles "$*" && \
-  echo "🖳  $*"ing ledger.. && \
+  echo "\n🖳  $*"ing ledger.. && \
   git -C ~/ledger "$*" && \
-  echo "🖳  $*"ing newsboat.. && \
+  echo "\n🖳  $*"ing newsboat.. && \
   git -C ~/newsboat "$*" && \
-  echo "🖳  $*"ing pass.. && \
+  echo "\n🖳  $*"ing pass.. && \
   pass git "$*" && \
-  echo "🖳  $*"ing tmuxinator.. && \
+  echo "\n🖳  $*"ing tmuxinator.. && \
   git -C ~/.tmuxinator "$*" && \
-  echo "🖳  $*"ing qutebrowser.. && \
+  echo "\n🖳  $*"ing qutebrowser.. && \
   git -C ~/qutebrowser "$*" && \
   echo Done!
 }
