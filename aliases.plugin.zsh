@@ -52,6 +52,7 @@ nls() { ls -c ~/notes/ | grep "$*" }
 ntree() { tree --noreport ~/notes/ }
 nsearch() { tree --noreport -P "*$**" ~/notes/ }
 nra() { ranger ~/notes/ }
+ngit() { git -C ~/notes/ "$*" }
 #}}}
 # Shortcuts {{{
 alias ra='ranger'
