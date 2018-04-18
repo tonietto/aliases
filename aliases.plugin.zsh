@@ -13,6 +13,8 @@ gdots() {
   git -C ~/ledger "$*" && \
   echo "\n🖳  $*"ing newsboat.. && \
   git -C ~/newsboat "$*" && \
+  echo "\n🖳  $*"ing notes.. && \
+  git -C ~/notes "$*" && \
   echo "\n🖳  $*"ing pass.. && \
   pass git "$*" && \
   echo "\n🖳  $*"ing tmuxinator.. && \
