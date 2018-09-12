@@ -6,21 +6,21 @@ alias ei='vim ~/.i3/config'
 # Dotfiles {{{
 gdots() {
   echo "⟳  $*"ing calcurse.. && \
-  git -C ~/.calcurse "$*" || notify-send gdots "~/.calcurse not found" && \
+  git -C ~/.calcurse "$*" || notify-send gdots "~/.calcurse had an error" && \
   echo "\n⟳  $*"ing dotfiles.. && \
-  git -C ~/dotfiles "$*" || notify-send gdots "~/dotfiles not found" && \
+  git -C ~/dotfiles "$*" || notify-send gdots "~/dotfiles had an error" && \
   echo "\n⟳  $*"ing ledger.. && \
-  git -C ~/ledger "$*" || notify-send gdots "~/ledger not found" && \
+  git -C ~/ledger "$*" || notify-send gdots "~/ledger had an error" && \
   echo "\n⟳  $*"ing newsboat.. && \
-  git -C ~/newsboat "$*" || notify-send gdots "~/newsboat not found" && \
+  git -C ~/newsboat "$*" || notify-send gdots "~/newsboat had an error" && \
   echo "\n⟳  $*"ing notes.. && \
-  git -C ~/notes "$*" || notify-send gdots "~/notes not found" && \
+  git -C ~/notes "$*" || notify-send gdots "~/notes had an error" && \
   echo "\n⟳  $*"ing pass.. && \
-  pass git "$*" || notify-send gdots "pass not found" && \
+  pass git "$*" || notify-send gdots "pass had an error" && \
   echo "\n⟳  $*"ing tmuxinator.. && \
-  git -C ~/.tmuxinator "$*" || notify-send gdots "~/.tmuxinator not found" && \
+  git -C ~/.tmuxinator "$*" || notify-send gdots "~/.tmuxinator had an error" && \
   echo "\n⟳  $*"ing qutebrowser.. && \
-  git -C ~/qutebrowser "$*" || notify-send gdots "~/qutebrowser not found" && \
+  git -C ~/qutebrowser "$*" || notify-send gdots "~/qutebrowser had an error" && \
   echo Done!
 }
 #}}}
