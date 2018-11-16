@@ -6,7 +6,7 @@ alias ei='vim ~/.i3/config'
 # Dotfiles {{{
 gdots() {
   APPS=(~/.calcurse ~/dotfiles ~/ledger ~/newsboat ~/notes ~/.tmuxinator ~/qutebrowser);
-  for APP in $APPS; do 
+  for APP in $APPS; do
   echo "git $*"ing $APP.. && \
   git -C $APP "$*" || notify-send gdots "$APP had an error"
   ; done ;
@@ -52,7 +52,6 @@ alias vat='vimcat'
 alias pue='pass unlock && exit'
 alias pul='pass unlock && encfs -i 60 ~/.ledger ~/ledger'
 alias pu='pass unlock'
-alias ssh='kiss && ssh'
 #}}}
 # Suspend and exit {{{
 alias suspend='xset dpms force off' # Ubuntu specific
