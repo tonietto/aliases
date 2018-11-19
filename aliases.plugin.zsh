@@ -27,13 +27,9 @@ alias aloha="clear && figlet ALOHA! | lolcat"
 #}}}
 # Navigation {{{
 alias cb='xclip -selection clipboard'
-alias c='clear'
 alias cl='cd ~/.calcurse && c && figlet CALENDAR | lolcat && echo ----------------- && echo Today is $(date +%m/%d/%y) && echo ----------------- && echo "" && calcurse -r3 && notify-send "Appointments for today" "$(calcurse -r1)"'
 alias cs='clear && show-version'
-alias ct='clear && figlet TASKS | lolcat && task next'
 alias ds='du -h ./ | sort -rh | head -n 1' # show this directory size
-alias tasks='clear && figlet TASKS | lolcat && task next'
-alias v='f -e vim' # quick opening files with vim and fasd
 #}}}
 # Notes {{{
 n() { $EDITOR ~/notes/"$*" }
