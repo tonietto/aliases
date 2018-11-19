@@ -5,7 +5,7 @@ alias ei='vim ~/.i3/config'
 #}}}
 # Dotfiles {{{
 gdots() {
-  APPS=(~/.calcurse ~/dotfiles ~/ledger ~/newsboat ~/notes ~/.tmuxinator ~/qutebrowser);
+  APPS=(~/.calcurse ~/ledger ~/.newsboat ~/notes ~/.tmuxinator);
   for APP in $APPS; do
   echo "git $*"ing $APP.. && \
   git -C $APP "$*" || notify-send gdots "$APP had an error"
