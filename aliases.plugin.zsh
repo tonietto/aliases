@@ -26,6 +26,7 @@ alias alohaine="fortune | cowsay | lolcat"
 alias aloha="clear && figlet ALOHA! | lolcat"
 #}}}
 # Navigation {{{
+alias c='clear'
 alias cb='xclip -selection clipboard'
 alias cl='cd ~/.calcurse && c && figlet CALENDAR | lolcat && echo ----------------- && echo Today is $(date +%m/%d/%y) && echo ----------------- && echo "" && calcurse -r3 && notify-send "Appointments for today" "$(calcurse -r1)"'
 alias cs='clear && show-version'
