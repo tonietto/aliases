@@ -10,6 +10,8 @@ gdots() {
   echo "git $*"ing $APP.. && \
   git -C $APP "$*" || notify-send gdots "$APP had an error"
   ; done ;
+  echo "git $*"ing pass.. && \
+  pass git "$*" || notify-send gdots "$APP had an error"
   echo Done!
 }
 #}}}
