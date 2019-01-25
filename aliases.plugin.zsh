@@ -51,6 +51,7 @@ alias vat='vimcat'
 alias pue='pass unlock && exit'
 alias pul='pass unlock && encfs -i 60 ~/.ledger ~/ledger'
 alias pu='pass unlock'
+alias gf='git fetch $(git rev-parse --symbolic-full-name --abbrev-ref @{upstream} | sed 's!/! !')'
 #}}}
 # Suspend and exit {{{
 alias suspend='xset dpms force off' # Ubuntu specific
